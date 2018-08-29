@@ -63,12 +63,7 @@ $(document).ready(function(){
 	
 			
 			var items = new Array("Amazon_Helmet.gif", "Blue_Robe.gif", "Batwing_hat.png", "Brass_armor.gif", "Chain_armor.png", "Chain_helmet.gif", "Crown_armor.gif", "Crown_helmet.gif", "Crusader_Helmet.gif", "Crystaline_armor.png", "Dark_armor.png", "Dark_Helmet.gif", "Demon_armor.png", "Demon_helmet.gif", "Devil_helmet.gif", "Divine_plate.png", "Dragon_robe.png", "Dragon_scale_mail.gif", "Dwarven_armor.gif", "Focus_cape.png", "Frozen_plate.gif", "Golden_armor.gif", "Golden_helmet.gif", "Hat_of_the_mad.gif", "Jacket.gif", "Knight_armor.gif", "Lavos_armor.gif", "Lightning_headband.png", "Lightning_robe.gif", "Magic_plate_armor.gif", "Magician's_robe.gif", "Magma_coat.gif", "Master_archer's_armor.gif", "Mystic_turban.gif", "Paladin_armor.gif", "Prismatic_helmet.gif", "Royal_helmet.gif", "Scale_armor.gif", "Soldier_helmet.gif", "Spirit_cloak.gif", "Steel_helmet.gif", "Strange_helmet.gif", "Terra_hood.gif", "Velvet_mantle.gif", "Viking_helmet.gif", "Yalahari_armor.gif", "Yalahari_mask.gif", "Zaoan_helmet.gif");
-			
-		
-			
-			//console.log(JSON.parse(localStorage.getItem('object')));
-			
-			
+				
             //var y = Math.round(Math.random()*(items.length-1));   
            // var obraz = "url(inventory/"+items[y];
 		   
@@ -78,15 +73,8 @@ $(document).ready(function(){
                         var id = Math.floor(Math.random() * 500);
 
 					$('#randitem').html('<img src="inventory/'+items[y]+'" alt="" id="'+id+'" draggable="true" ondragstart="drag(event)" />');
+			
 					
-				
-					
-					localStorage.setItem('object', JSON.stringify('<img src="inventory/'+items[y]+'" alt="" id="'+id+'" draggable="true" ondragstart="drag(event)" />'));
-					
-					JSON.parse(localStorage.getItem('object'));
-					
-				
-	
 	$('.ok').click(function(){
 		$('.button').show();
 		$('.info').hide();
