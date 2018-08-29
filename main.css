@@ -1,0 +1,346 @@
+body
+{
+	/* Background pattern from Toptal Subtle Patterns */
+	font-size: 20px;
+	background-image: url(img/background.jpg);
+	background-repeat: no-repeat;
+	background-size: auto;
+	font-family: 'Lato', sans-serif;
+}
+
+.logoPhoto
+{
+	background-image: url(img/ConqueringLion.png);
+	background-repeat: no-repeat;
+	background-size: 100px;
+	text-align: center;
+	width: 150px;
+	height: 108px;
+	margin-left: auto;
+	
+}
+
+.animation
+{
+	background-image: url(img/BatSwarm_1x.gif);
+	background-repeat: no-repeat;
+	width:	auto;
+	height: 70px;
+	padding: 0;
+	display: flex;
+	text-align: right;
+}
+
+.TibiaLogo
+{
+	
+	background-image: url(img/TibiaDragonLogo_LowRes.png);
+	background-repeat: no-repeat;
+	background-size: auto;
+	height: auto;
+	margin-bottom: 0;
+}
+
+.mainLogo
+{
+	font-weight: 900;
+	font-size: 50px;
+	text-align: center;
+	text-shadow: 1px 2px 2px rgba(155, 155, 155, 0.6);
+	background-image: url(img/TibiaDragonLogo_LowRes.png);
+	background-repeat: no-repeat;
+	background-size: 200px;
+	height: 120px;
+	margin-bottom: 0;
+	color: #FFFF21;
+	cursor: default;
+}
+
+.container
+{
+	width: 1400px;
+}
+
+.content
+{
+	width: 700px;
+	height: 500px;
+	background-color: #4f4f4f;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.inventory
+{
+	background-image: url(img/gray_sand.png);
+	background-size: 0, 0;
+	margin: 0;
+	padding: 0;
+	width: auto;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	
+}
+
+.contsq
+{
+	display: flex;
+	flex-direction: column;
+}
+
+.square, .square4, .square5 , .square6 , .square7 , .square8 , .square9 , .square10 , .square11 , .square12 , .square13 , .square14 , .square15 , .square16, .square17 , .square18 , .square19 , .square20 , .square21 , .square22, .square23
+{
+    background-image: url(img/tactile_noise.png);
+    width: 50px;
+    height: 50px;
+	margin-top: 20px;
+	box-sizig: border-box;
+	-webkit-box-shadow: inset 0px 0px 18px -4px rgba(0,0,0,1);
+	-moz-box-shadow: inset 0px 0px 18px -4px rgba(0,0,0,1);
+	box-shadow: inset 0px 0px 18px -4px rgba(0,0,0,1);
+	border: 1px solid black;
+	margin-top: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.square2
+{
+    background-image: url(img/tactile_noise.png);
+    width: 50px;
+    height: 50px;
+	box-sizig: border-box;
+	-webkit-box-shadow: inset 0px 0px 18px -4px rgba(0,0,0,1);
+	-moz-box-shadow: inset 0px 0px 18px -4px rgba(0,0,0,1);
+	box-shadow: inset 0px 0px 18px -4px rgba(0,0,0,1);
+	border: 1px solid black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.cap
+{
+    background-image: url(img/tactile_noise.png);
+    width: 50px;
+    height: 33px;
+	box-sizig: border-box;
+	-webkit-box-shadow: inset 0px 0px 18px -4px rgba(0,0,0,1);
+	-moz-box-shadow: inset 0px 0px 18px -4px rgba(0,0,0,1);
+	box-shadow: inset 0px 0px 18px -4px rgba(0,0,0,1);
+	border: 1px solid black;
+	cursor: default;
+}
+
+.soul
+{
+    background-image: url(img/tactile_noise.png);
+    width: 50px;
+    height: 33px;
+	box-sizig: border-box;
+	-webkit-box-shadow: inset 0px 0px 18px -4px rgba(0,0,0,1);
+	-moz-box-shadow: inset 0px 0px 18px -4px rgba(0,0,0,1);
+	box-shadow: inset 0px 0px 18px -4px rgba(0,0,0,1);
+	border: 1px solid black;
+	text-align: center;
+	font-size: 8px;
+	cursor: default;
+}
+
+.ssoul, .cap, .s
+{
+	font-size: 10px;
+	text-align: center;
+	color: #efefef;
+	vertical-align: text-top;
+	margin-bottom: 0;
+}
+
+.deposit
+{
+	background-image: url(img/gray_sand.png);
+	background-size: 0, 0;
+	width: auto;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.btncont
+{
+	width: 70px;
+	height: auto;
+	display: flex;
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.button
+{
+    background-color: #4682B4;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+	font-size: 18px;
+}
+
+.button:hover, .button:focus
+{
+	opacity: 0.8;
+	box-shadow: none;
+	outline: none;
+}
+
+.info
+{
+	background-image: url(img/tactile_noise.png);
+    width: 50px;
+    height: 50px;
+	box-sizig: border-box;
+	-webkit-box-shadow: inset 0px 0px 18px -4px rgba(0,0,0,1);
+	-moz-box-shadow: inset 0px 0px 18px -4px rgba(0,0,0,1);
+	box-shadow: inset 0px 0px 18px -4px rgba(0,0,0,1);
+	border: 1px solid black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	vertical-align: middle;
+	margin-top: 10px;
+	align-content: center;
+}
+
+.ok
+{
+	width: 150px;
+    background-color: #008CBA; 
+    color: white; 
+    border: 1px solid #336699;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+
+.ok:hover
+{
+    background-color: #008CBA;
+    color: white;
+	box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+}
+
+.btncont2
+{
+	width: 70px;
+	height: auto;
+	display: flex;
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
+	flex-direction: column;
+	vertical-align: top;
+}
+
+.deposit2
+{
+	background-image: url(img/gray_sand.png);
+	background-size: 0, 0;
+	width: auto;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.square3
+{
+    background-image: url(img/tactile_noise.png);
+    width: 50px;
+    height: 50px;
+	margin-top: 20px;
+	box-sizig: border-box;
+	-webkit-box-shadow: inset 0px 0px 18px -4px rgba(0,0,0,1);
+	-moz-box-shadow: inset 0px 0px 18px -4px rgba(0,0,0,1);
+	box-shadow: inset 0px 0px 18px -4px rgba(0,0,0,1);
+	border: 1px solid black;
+	margin-top: 0px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.draw
+{
+	display: flex;
+	justify-content: center;
+}
+
+.depositTwo
+{
+	background-image: url(img/gray_sand.png);
+	background-size: 0, 0;
+	padding-bottom: 10px;
+	width: auto;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	vertical-align: top;
+}
+
+.btnSub
+{
+	width: 150px;
+	height: auto;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 5px;
+	padding-bottom: 15px;
+}
+
+.contsq3
+{
+	display: flex;
+	flex-direction: column;
+	margin-top: 3px;
+}
+
+footer
+{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+
+.footer
+{
+	position: absolute;
+	bottom: 0;
+	display: flex;
+	justify-content: center;
+	color: #fff;
+}
+
+.footer > a
+{
+	text-decoration: none;
+}
